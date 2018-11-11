@@ -7,7 +7,7 @@ var cors = require('cors')
 const app=express();
 // allow cross-origin request
 app.use(cors())
-mongoose.connect('mongodb://aa:aaa@ds145083.mlab.com:45083/gql-irshad')
+mongoose.connect('mongodb://abc:abc@ds145083.mlab.com:45083/gql-irshad')
 
 mongoose.connection.once('open',()=>{
     console.log("connected to database")
